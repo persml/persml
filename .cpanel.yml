@@ -1,12 +1,12 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/persml/public_html/git-control
+    - export DEPLOYPATH=/home/persml/public_html/persml
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
 
     ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/persml/public_html/public_html/git-control
+    - export DEPLOYPATH=/home/persml/public_html/public_html/persml
     - /bin/cp * $DEPLOYPATH
