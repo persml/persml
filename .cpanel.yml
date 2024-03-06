@@ -8,5 +8,5 @@ deployment:
     ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
+    - export DEPLOYPATH=/home/persml/public_html/public_html/git-control
     - /bin/cp * $DEPLOYPATH
